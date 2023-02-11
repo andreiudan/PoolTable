@@ -1,0 +1,23 @@
+﻿  Source.cpp
+Source.obj : error LNK2019: unresolved external symbol __imp_glClear referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol __imp_glClearColor referenced in function "void __cdecl myinit(void)" (?myinit@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol __imp_glColor3f referenced in function "void __cdecl myinit(void)" (?myinit@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol __imp_glFlush referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol __imp_glLoadIdentity referenced in function "void __cdecl myReshape(int,int)" (?myReshape@@YAXHH@Z)
+Source.obj : error LNK2019: unresolved external symbol __imp_glMatrixMode referenced in function "void __cdecl myReshape(int,int)" (?myReshape@@YAXHH@Z)
+Source.obj : error LNK2019: unresolved external symbol __imp_glOrtho referenced in function "void __cdecl myReshape(int,int)" (?myReshape@@YAXHH@Z)
+Source.obj : error LNK2019: unresolved external symbol __imp_glPopMatrix referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol __imp_glPushMatrix referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol __imp_glViewport referenced in function "void __cdecl myReshape(int,int)" (?myReshape@@YAXHH@Z)
+Source.obj : error LNK2019: unresolved external symbol gluNewQuadric referenced in function "void __cdecl `dynamic initializer for 'gluObj''(void)" (??__EgluObj@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol gluQuadricDrawStyle referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol gluCylinder referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol auxInitDisplayMode referenced in function main
+Source.obj : error LNK2019: unresolved external symbol auxInitPosition referenced in function main
+Source.obj : error LNK2019: unresolved external symbol auxInitWindowW referenced in function main
+Source.obj : error LNK2019: unresolved external symbol auxMainLoop referenced in function main
+Source.obj : error LNK2019: unresolved external symbol auxReshapeFunc referenced in function main
+E:\Visual Studio\VC\Tools\MSVC\14.34.31933\lib\x64\glu32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+E:\Visual Studio\VC\Tools\MSVC\14.34.31933\lib\x64\opengl32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+E:\Visual Studio\VC\Tools\MSVC\14.34.31933\lib\x64\glaux.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+E:\Proiecte VS\Proiect Grafica - Andreiu Dan\x64\Debug\Proiect Grafica - Andreiu Dan.exe : fatal error LNK1120: 18 unresolved externals
