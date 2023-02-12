@@ -1,23 +1,59 @@
 ﻿  Source.cpp
+E:\Git\PoolTable\Proiect Grafica - Andreiu Dan\Source.cpp(80,31): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+E:\Git\PoolTable\Proiect Grafica - Andreiu Dan\Source.cpp(84,33): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+E:\Git\PoolTable\Proiect Grafica - Andreiu Dan\Source.cpp(90,34): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+E:\Git\PoolTable\Proiect Grafica - Andreiu Dan\Source.cpp(96,32): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+E:\Git\PoolTable\Proiect Grafica - Andreiu Dan\Source.cpp(102,33): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+E:\Git\PoolTable\Proiect Grafica - Andreiu Dan\Source.cpp(118,31): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+E:\Git\PoolTable\Proiect Grafica - Andreiu Dan\Source.cpp(122,37): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+E:\Git\PoolTable\Proiect Grafica - Andreiu Dan\Source.cpp(128,36): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+E:\Git\PoolTable\Proiect Grafica - Andreiu Dan\Source.cpp(134,34): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+E:\Git\PoolTable\Proiect Grafica - Andreiu Dan\Source.cpp(140,35): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+E:\Git\PoolTable\Proiect Grafica - Andreiu Dan\Source.cpp(153,34): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+E:\Git\PoolTable\Proiect Grafica - Andreiu Dan\Source.cpp(163,33): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+E:\Git\PoolTable\Proiect Grafica - Andreiu Dan\Source.cpp(167,33): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+E:\Git\PoolTable\Proiect Grafica - Andreiu Dan\Source.cpp(174,37): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+E:\Git\PoolTable\Proiect Grafica - Andreiu Dan\Source.cpp(183,36): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+E:\Git\PoolTable\Proiect Grafica - Andreiu Dan\Source.cpp(193,36): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+E:\Git\PoolTable\Proiect Grafica - Andreiu Dan\Source.cpp(203,35): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+E:\Git\PoolTable\Proiect Grafica - Andreiu Dan\Source.cpp(216,34): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+E:\Git\PoolTable\Proiect Grafica - Andreiu Dan\Source.cpp(225,34): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+E:\Git\PoolTable\Proiect Grafica - Andreiu Dan\Source.cpp(232,35): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+E:\Git\PoolTable\Proiect Grafica - Andreiu Dan\Source.cpp(239,37): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+E:\Git\PoolTable\Proiect Grafica - Andreiu Dan\Source.cpp(271,50): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+E:\Git\PoolTable\Proiect Grafica - Andreiu Dan\Source.cpp(272,50): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+E:\Git\PoolTable\Proiect Grafica - Andreiu Dan\Source.cpp(283,53): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
 Source.obj : error LNK2019: unresolved external symbol __imp_glClear referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
-Source.obj : error LNK2019: unresolved external symbol __imp_glClearColor referenced in function "void __cdecl myinit(void)" (?myinit@@YAXXZ)
-Source.obj : error LNK2019: unresolved external symbol __imp_glColor3f referenced in function "void __cdecl myinit(void)" (?myinit@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol __imp_glClearColor referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol __imp_glColor3f referenced in function "void __cdecl balls(void)" (?balls@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol __imp_glDepthFunc referenced in function "void __cdecl myinit(void)" (?myinit@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol __imp_glEnable referenced in function "void __cdecl myinit(void)" (?myinit@@YAXXZ)
 Source.obj : error LNK2019: unresolved external symbol __imp_glFlush referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol __imp_glLightModelfv referenced in function "void __cdecl myinit(void)" (?myinit@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol __imp_glLightfv referenced in function "void __cdecl myinit(void)" (?myinit@@YAXXZ)
 Source.obj : error LNK2019: unresolved external symbol __imp_glLoadIdentity referenced in function "void __cdecl myReshape(int,int)" (?myReshape@@YAXHH@Z)
+Source.obj : error LNK2019: unresolved external symbol __imp_glMaterialfv referenced in function "void __cdecl myinit(void)" (?myinit@@YAXXZ)
 Source.obj : error LNK2019: unresolved external symbol __imp_glMatrixMode referenced in function "void __cdecl myReshape(int,int)" (?myReshape@@YAXHH@Z)
-Source.obj : error LNK2019: unresolved external symbol __imp_glOrtho referenced in function "void __cdecl myReshape(int,int)" (?myReshape@@YAXHH@Z)
-Source.obj : error LNK2019: unresolved external symbol __imp_glPopMatrix referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
-Source.obj : error LNK2019: unresolved external symbol __imp_glPushMatrix referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol __imp_glPopMatrix referenced in function "void __cdecl balls(void)" (?balls@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol __imp_glPushMatrix referenced in function "void __cdecl balls(void)" (?balls@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol __imp_glRotatef referenced in function "void __cdecl balls(void)" (?balls@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol __imp_glShadeModel referenced in function "void __cdecl balls(void)" (?balls@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol __imp_glTranslatef referenced in function "void __cdecl balls(void)" (?balls@@YAXXZ)
 Source.obj : error LNK2019: unresolved external symbol __imp_glViewport referenced in function "void __cdecl myReshape(int,int)" (?myReshape@@YAXHH@Z)
-Source.obj : error LNK2019: unresolved external symbol gluNewQuadric referenced in function "void __cdecl `dynamic initializer for 'gluObj''(void)" (??__EgluObj@@YAXXZ)
-Source.obj : error LNK2019: unresolved external symbol gluQuadricDrawStyle referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
-Source.obj : error LNK2019: unresolved external symbol gluCylinder referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol gluPerspective referenced in function "void __cdecl myReshape(int,int)" (?myReshape@@YAXHH@Z)
+Source.obj : error LNK2019: unresolved external symbol gluNewQuadric referenced in function "void __cdecl tableHoles(void)" (?tableHoles@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol gluQuadricDrawStyle referenced in function "void __cdecl tableHoles(void)" (?tableHoles@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol gluPartialDisk referenced in function "void __cdecl tableHoles(void)" (?tableHoles@@YAXXZ)
 Source.obj : error LNK2019: unresolved external symbol auxInitDisplayMode referenced in function main
 Source.obj : error LNK2019: unresolved external symbol auxInitPosition referenced in function main
 Source.obj : error LNK2019: unresolved external symbol auxInitWindowW referenced in function main
 Source.obj : error LNK2019: unresolved external symbol auxMainLoop referenced in function main
 Source.obj : error LNK2019: unresolved external symbol auxReshapeFunc referenced in function main
+Source.obj : error LNK2019: unresolved external symbol auxIdleFunc referenced in function main
+Source.obj : error LNK2019: unresolved external symbol auxKeyFunc referenced in function main
+Source.obj : error LNK2019: unresolved external symbol auxSolidSphere referenced in function "void __cdecl balls(void)" (?balls@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol auxSolidBox referenced in function "void __cdecl table(void)" (?table@@YAXXZ)
 E:\Visual Studio\VC\Tools\MSVC\14.34.31933\lib\x64\glu32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
 E:\Visual Studio\VC\Tools\MSVC\14.34.31933\lib\x64\opengl32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
 E:\Visual Studio\VC\Tools\MSVC\14.34.31933\lib\x64\glaux.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
-E:\Proiecte VS\Proiect Grafica - Andreiu Dan\x64\Debug\Proiect Grafica - Andreiu Dan.exe : fatal error LNK1120: 18 unresolved externals
+E:\Git\PoolTable\x64\Debug\Proiect Grafica - Andreiu Dan.exe : fatal error LNK1120: 30 unresolved externals
